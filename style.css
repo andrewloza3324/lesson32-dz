@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.card{
+    width: 400px;
+    margin: 30px auto ;
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 23px;
+}
+.card__image{
+    width: 100%;
+}
+.card__title{
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+.card__title--small{
+    font-family: montserrat;
+    font-size: 16px;
+    letter-spacing: 14px;
+    color: black;
+}
+.card__title--big{
+    margin-top: 40px;
+    font-family: Playfair Display ;
+    letter-spacing: 5px;
+    font-size: 50px;
+    line-height: 15px;
+}
+.card__underline{
+    border-bottom: 2px solid black;
+    width: 15%;
+    margin: auto;
+    height: 50px;
+}
+.card__text{
+    margin-top: 20px;
+    font-family: montserrat;
+    text-align: center;
+    line-height: 15px;
+    margin-bottom: 30px;
+}
+.card__button{
+    margin: auto;
+    width: 75%;
+    text-transform: uppercase;
+    display: block;
+    text-align: center;
+    font-family: montserrat ;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    border-radius: 23px;
+    padding: 15px 20px;
+    letter-spacing: 3px;
+    transition: 0.3s;
+}
+.card__button:hover{
+    background-color: white;
+    color: black;
+}
